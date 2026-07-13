@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- big white plus sign -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,26h16v20h20v16H62v20H46V62H26V46h20z" />
+    <!-- little yellow star, top right -->
+    <path
+        android:fillColor="#FFD34E"
+        android:pathData="M80,18l2.6,5.8L88,26l-5.4,2.2L80,34l-2.6,-5.8L72,26l5.4,-2.2z" />
+</vector>
