@@ -4,12 +4,32 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- big white plus sign -->
+    <!-- calculator body (white, rounded) -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M46,26h16v20h20v16H62v20H46V62H26V46h20z" />
-    <!-- little yellow star, top right -->
+        android:pathData="M38,22 h32 a8,8 0 0 1 8,8 v48 a8,8 0 0 1 -8,8 h-32 a8,8 0 0 1 -8,-8 v-48 a8,8 0 0 1 8,-8 z" />
+    <!-- screen (yellow, rounded) -->
     <path
         android:fillColor="#FFD34E"
-        android:pathData="M80,18l2.6,5.8L88,26l-5.4,2.2L80,34l-2.6,-5.8L72,26l5.4,-2.2z" />
+        android:pathData="M40,30 h28 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-28 a4,4 0 0 1 -4,-4 v-14 a4,4 0 0 1 4,-4 z" />
+    <!-- eyes -->
+    <path
+        android:fillColor="#4A3B62"
+        android:pathData="M43.5,39 a2.5,2.5 0 1 0 5,0 a2.5,2.5 0 1 0 -5,0 z" />
+    <path
+        android:fillColor="#4A3B62"
+        android:pathData="M59.5,39 a2.5,2.5 0 1 0 5,0 a2.5,2.5 0 1 0 -5,0 z" />
+    <!-- smile -->
+    <path
+        android:strokeColor="#4A3B62"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M47,43 Q54,48 61,43" />
+    <!-- colourful buttons -->
+    <path android:fillColor="#FF6FA5" android:pathData="M35.5,64 a4.5,4.5 0 1 0 9,0 a4.5,4.5 0 1 0 -9,0 z" />
+    <path android:fillColor="#3FBF7F" android:pathData="M49.5,64 a4.5,4.5 0 1 0 9,0 a4.5,4.5 0 1 0 -9,0 z" />
+    <path android:fillColor="#4FA9F5" android:pathData="M63.5,64 a4.5,4.5 0 1 0 9,0 a4.5,4.5 0 1 0 -9,0 z" />
+    <path android:fillColor="#FFA43B" android:pathData="M35.5,76 a4.5,4.5 0 1 0 9,0 a4.5,4.5 0 1 0 -9,0 z" />
+    <path android:fillColor="#F45B5B" android:pathData="M49.5,76 a4.5,4.5 0 1 0 9,0 a4.5,4.5 0 1 0 -9,0 z" />
+    <path android:fillColor="#9B6FE8" android:pathData="M63.5,76 a4.5,4.5 0 1 0 9,0 a4.5,4.5 0 1 0 -9,0 z" />
 </vector>
